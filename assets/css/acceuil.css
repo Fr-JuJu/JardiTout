@@ -1,0 +1,160 @@
+/*----------Acceuil----------*/
+body{
+    margin: 0 0 0 0;
+}
+.jt {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 0.5fr repeat(2, 1fr);
+    grid-template-rows: 0.2fr 0.3fr 1fr 0.2fr 1fr 0.1fr 0.3fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .logo { grid-area: 1 / 1 / 2 / 2; }
+    .texteh { grid-area: 1 / 4 / 2 / 5;
+        font-size: 28px;
+     }
+    .menu { grid-area: 2 / 1 / 3 / 6;
+        border:solid 2px rgb(0, 0, 0);
+        background: rgb(0, 0, 0);
+        margin-block-start: 0px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        
+    }
+    .atf a:link {
+    color: #ffffff;
+    }
+    .atf a:visited {
+    color: #ffffff;
+    }
+
+    .atf a:hover {
+    color: #ffffff;
+    }
+    .atf a:active {
+    color: #ffffff;
+    } 
+    .atf{
+        margin-left: 10%;
+        
+    }
+
+    .img { grid-area: 3 / 1 / 4 / 6;
+        margin-top: 8px;
+    }
+    .textea { grid-area: 4 / 1 / 5 / 3;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 1%; 
+    }
+    .gras{
+        font-weight: 900;
+    }
+    .texte { grid-area: 5 / 1 / 7 / 4;
+        margin-left: 1%;
+    }
+    .colone { grid-area: 4 / 4 / 7 / 6;
+        border:solid 2px rgb(173, 106, 43);
+        background: rgb(173, 106, 43);
+        margin-bottom: 10px;
+    }
+    .footer { grid-area: 7 / 1 / 8 / 6;}
+    
+    .footer { 
+        border:solid 2px rgb(0, 0, 0);
+        background: rgb(0, 0, 0);
+        margin-block-start: 0px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;  
+    }
+    .mhp a:link {
+    color: #ffffff;
+    }
+    .mhp a:visited {
+    color: #ffffff;
+    }
+
+    .mhp a:hover {
+    color: #ffffff;
+    }
+    .mhp a:active {
+    color: #ffffff;
+    } 
+    .mhp{
+        margin-left: 10%;
+        
+    }
+
+/*----------Tableau----------*/
+
+
+.tb {
+    display: grid;
+    grid-template-columns: 0.5fr repeat(4, 1fr);
+    grid-template-rows: 1fr 0.3 repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    .jar { grid-area: 2 / 1 / 3 / 2;
+    font-size: 20px;
+    margin-left: 5%;
+    }
+    .atc { grid-area: 2 / 2 / 3 / 3; }
+    .atc a:link {
+        color: #000000;
+        }
+        .atc a:visited {
+        color: #000000;
+        }
+    
+        .atc a:hover {
+        color: #000000;
+        }
+        .atc a:active {
+        color: #000000;
+        } 
+        .atc{
+            margin-left: 10%;
+            margin-top: 6%;
+            
+        }
+    .navbarre { grid-area: 2 / 5 / 3 / 6; }
+    .imgt { grid-area: 3 / 1 / 4 / 6 ;
+
+    }
+    .tableau { grid-area: 4 / 1 / 6 / 6; }
+
+    label {
+        display: block;
+        font:
+          1rem 'Fira Sans',
+          sans-serif;
+      }
+      
+      input,
+      label {
+        margin: 0.4rem 0;
+      }
+
+      .tableau {
+        width: 100%;
+      }
+    
+      .tableau thead th {
+        font-size: 15px;
+        font-weight: bold;
+        color: #636363;
+      }
+      .tableau tfoot {
+        font-size: 14px;
+        font-weight: normal;
+      }
+      .tableau tfoot td {
+        font-size: 14px;
+      }
